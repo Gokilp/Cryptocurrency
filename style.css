@@ -48,3 +48,28 @@ nav .btn {
   border-radius: 20px;
   padding: 10px 30px;
 }
+.content {
+  margin-top: 10%;
+}
+.content h1 {
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+.content h1 span {
+  color: #ff960b;
+}
+.content p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  line-height:1.5em;
+}
+
+.content .btn {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #ff960b;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
