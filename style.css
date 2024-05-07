@@ -61,7 +61,7 @@ nav .btn {
 .content p {
   font-size: 25px;
   margin-bottom: 30px;
-  line-height:1.5em;
+  line-height: 1.5em;
 }
 
 .content .btn {
@@ -72,4 +72,40 @@ nav .btn {
   text-decoration: none;
   padding: 15px 30px;
   border-radius: 30px;
+}
+.coins-list {
+  position: absolute;
+  right: 10%;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.coins {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin: 0 15px;
+  color: #ff9606;
+  border: 1px solid #ffffff;
+  padding: 20px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.coins img {
+  width: 45px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.coins h3 {
+   color: #fff;
+   line-height: 1.5em;
+   margin-bottom: 5px;
+   cursor: pointer;
+}
+
+.coins :hover{
+   color: red;
 }
