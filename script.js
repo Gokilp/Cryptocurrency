@@ -10,7 +10,7 @@ var settings = {
   headers: {},
 };
 
-$.ajax(settings).done(function (response) {
+$.ajax(settings).done(function (response) {   // ajax
   btc.innerHTML = response.bitcoin.usd;
   eth.innerHTML = response.ethereum.usd;
   doge.innerHTML = response.dogecoin.usd;
