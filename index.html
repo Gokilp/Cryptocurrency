@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.jsintegrity="sha256-/xUj+30JU5yEx1q6GSYGSHk7tPXikynS7ogEvDejcrossorigin="anonymous"></script>
   </head>
   <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <div class="container">
       <nav>
         <img src="images/logo.png" class="logo" />
@@ -31,25 +33,26 @@
         <div class="coins">
           <img src="images/bitcoin.png" alt="Bitcoin" />
           <div>
-            <h3>$00</h3>
+            <h3>$00<span id="Bitcoin"></span></h3>
             <p>Bitcoin</p>
           </div>
         </div>
         <div class="coins">
           <img src="images/ethereum.png" alt="Ethereum" />
           <div>
-            <h3>$00</h3>
+            <h3>$00<span id="Ethereum"></span></h3>
             <p>Ethereum</p>
           </div>
         </div>
         <div class="coins">
-          <img src="images/dogecoin.png" alt="DogeCoin" />
+          <img src="images/dogecoin.png" alt="DogeCoin"/>
           <div>
-            <h3>$00</h3>
+            <h3>$00<span id="DogeCoin"></span></h3>
             <p>DogeCoin</p>
           </div>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
